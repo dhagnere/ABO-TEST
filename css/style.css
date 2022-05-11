@@ -9,6 +9,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat' , sans-serif;
+    background-color: #000000;
 }
 /* end of common styles */
 
@@ -257,7 +258,7 @@ body{
     cursor: pointer;
 }
 
-.hotel-heading{intro-sub-heading wow fadeIn secondary-font
+.hotel-heading{
     font-family: 'Josefin Sans' , sans-serif ;
     font-size: 2.7rem;
     font-weight: 400;
@@ -306,7 +307,7 @@ body{
 }
 
 .banner-button:hover{
-    background : linear-gradient(to left , rgb(255, 38, 0), goldenrod);
+    background : linear-gradient(to left , rgb(12, 1, 107), rgb(1, 5, 56));
 }
 
 .banner-button:active{
@@ -327,7 +328,7 @@ body{
 .about-us{
     margin-left: 8rem;
     display: flex;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(0, 0, 0);
 }
 
 .about-us-content{
@@ -366,7 +367,7 @@ body{
     font-size: 3.5rem;
     font-weight: 300;
     letter-spacing: .2rem;
-    color: #b85d1c;
+    color: #555;
 }
 
 .about-us-paragraph{
@@ -375,6 +376,7 @@ body{
     font-weight: 300;
     text-align: center;
     margin-bottom: 5rem;
+    color: #555;
 }
 
 .about-us-btn{
@@ -383,9 +385,9 @@ body{
     font-family: "Montserrat" , sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: #b85d1c;
+    color: #555;
     background-color: transparent;
-    border: .1rem solid #b85d1c;
+    border: .1rem solid #555;
     outline: none;
     cursor: pointer;
 }
@@ -410,19 +412,19 @@ body{
 }
 
 .image-1{
-    transform: translate(-20%, -90%);
+    transform: translate(-79%, -0%);
 }
 
 .image-2{
-    transform: translate(-70%, -70%);
+    transform: translate(-79%, -170%);
 }
 
 .image-3{
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, -220%);
 }
 
 .image-4{
-    transform: translate(-30%, -30%);
+    transform: translate(-30%, -90%);
 }
 /* end of about us */
 
@@ -794,7 +796,7 @@ body{
 
 @media (max-width: 500px) {
     .navigation {
-        width: 28rem:
+        width: 28rem;
     }
 
     .navigation-search-input{
