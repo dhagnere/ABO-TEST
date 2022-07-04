@@ -412,19 +412,17 @@ body {
 }
 
 .image-1 {
-  transform: translate(-79%, -0%);
+  transform: translate(-79%, -150%);
 }
 
 .image-2 {
-  transform: translate(-79%, -170%);
+  transform: translate(-200%, -150%);
 }
 
-.image-3 {
-  transform: translate(-30%, -220%);
-}
 
 .image-4 {
-  transform: translate(-30%, -90%);
+  transform: translate(-320%, -150%);
+ 
 }
 /* end of about us */
 
